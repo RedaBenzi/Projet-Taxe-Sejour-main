@@ -1,6 +1,6 @@
 package com.example.demo.bean;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 public class TaxeAnuelle {

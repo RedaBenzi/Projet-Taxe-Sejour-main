@@ -3,10 +3,11 @@ package com.example.demo.service.impl;
 import com.example.demo.bean.Locale;
 import com.example.demo.dao.LocaleDao;
 import com.example.demo.service.facade.LocaleService;
-import jakarta.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
