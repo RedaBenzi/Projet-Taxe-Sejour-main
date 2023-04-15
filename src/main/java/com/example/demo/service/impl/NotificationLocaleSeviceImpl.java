@@ -3,12 +3,12 @@ package com.example.demo.service.impl;
 import com.example.demo.bean.*;
 import com.example.demo.dao.NotificationLocaleDao;
 import com.example.demo.service.facade.NotificationLocaleSevice;
-import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Service;
 
 
+import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 

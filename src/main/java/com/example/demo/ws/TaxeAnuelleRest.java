@@ -2,10 +2,10 @@ package com.example.demo.ws;
 
 import com.example.demo.bean.TaxeAnuelle;
 import com.example.demo.service.impl.TaxeAnuelleServiceIpml;
-import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.util.List;
 

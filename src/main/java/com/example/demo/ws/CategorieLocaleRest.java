@@ -3,10 +3,11 @@ package com.example.demo.ws;
 
 import com.example.demo.bean.CategorieLocale;
 import com.example.demo.service.impl.CategorieLocaleServiceImpl;
-import jakarta.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @RestController
